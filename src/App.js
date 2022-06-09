@@ -14,7 +14,7 @@ function App() {
     <div className="App ">
       <Routes>
    <Route path='/' element={<Login isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated}/>}/>
-   <Route path='/list' element={<InfiniteScroll  isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated}/>}/>
+   <Route path='/home' element={<InfiniteScroll  isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated}/>}/>
      </Routes>
     </div>
     </BrowserRouter>

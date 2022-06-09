@@ -23,7 +23,7 @@ const Login = ({setIsAuthenticated}) => {
       if(email==='foo' && password==='bar' ){
          setIsAuthenticated(true)
   
-     navigate('/list')
+     navigate('/home')
   
         
       }
