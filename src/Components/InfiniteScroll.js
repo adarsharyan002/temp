@@ -1,7 +1,7 @@
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { useEffect, useState } from "react";
 import User from './User'
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const InfiniteScrollComp = ({isAuthenticated,setIsAuthenticated}) => {
   let navigate=useNavigate();
